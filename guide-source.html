@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Copilot 3D AI 3D Model Generator Guide, Pricing, Features, and Official Pages</title>
+    <style>
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      :root {
+        --ink: #10233f;
+        --muted: #5c6f8a;
+        --line: #d6dfea;
+        --brand: #0066ff;
+        --brand-deep: #0f3ea8;
+        --panel: #f4f8ff;
+        --panel-strong: #e8f0ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: #fff;
+      }
+
+      a {
+        color: var(--brand-deep);
+        text-decoration: none;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 16mm 14mm 18mm;
+        page-break-after: always;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .page:last-child {
+        page-break-after: auto;
+      }
+
+      .hero {
+        background:
+          radial-gradient(circle at top right, rgba(0, 102, 255, 0.16), transparent 34%),
+          linear-gradient(145deg, #f6f9ff 0%, #eaf1ff 48%, #ffffff 100%);
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: rgba(0, 102, 255, 0.1);
+        color: var(--brand-deep);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      h1, h2, h3 {
+        margin: 0;
+      }
+
+      h1 {
+        margin-top: 18px;
+        font-size: 34px;
+        line-height: 1.08;
+        max-width: 150mm;
+      }
+
+      h2 {
+        font-size: 22px;
+        line-height: 1.15;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 15px;
+        line-height: 1.3;
+        margin-bottom: 8px;
+      }
+
+      p, li {
+        font-size: 12.5px;
+        line-height: 1.65;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      ul, ol {
+        margin: 10px 0 0;
+        padding-left: 18px;
+      }
+
+      .hero-grid,
+      .grid-2,
+      .grid-3 {
+        display: grid;
+        gap: 12px;
+      }
+
+      .hero-grid,
+      .grid-2 {
+        grid-template-columns: 1.1fr 0.9fr;
+      }
+
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .lead {
+        margin-top: 16px;
+        max-width: 150mm;
+        font-size: 14px;
+        line-height: 1.72;
+        color: #334766;
+      }
+
+      .hero-card,
+      .card,
+      .metric,
+      .faq {
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: #fff;
+      }
+
+      .hero-card,
+      .card,
+      .faq {
+        padding: 14px;
+      }
+
+      .metric {
+        padding: 12px 14px;
+        background: var(--panel);
+      }
+
+      .metric strong {
+        display: block;
+        margin-top: 8px;
+        font-size: 15px;
+        line-height: 1.35;
+        color: var(--ink);
+      }
+
+      .hero-links {
+        margin-top: 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+
+      .hero-link {
+        display: block;
+        padding: 12px;
+        border-radius: 16px;
+        background: var(--panel-strong);
+        border: 1px solid #c9d8f5;
+      }
+
+      .hero-link strong,
+      .contact-list strong {
+        display: block;
+        color: var(--ink);
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+
+      .hero-link span,
+      .contact-list span {
+        display: block;
+        font-size: 11.5px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .mini-grid div {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--panel);
+        padding: 12px;
+      }
+
+      .mini-grid strong {
+        display: block;
+        font-size: 12px;
+        color: var(--ink);
+        margin-bottom: 4px;
+      }
+
+      .mini-grid span {
+        display: block;
+        font-size: 11px;
+        line-height: 1.5;
+        color: var(--muted);
+      }
+
+      .section-head {
+        margin-bottom: 14px;
+      }
+
+      .section-head p {
+        margin-top: 8px;
+        max-width: 155mm;
+      }
+
+      .stack {
+        display: grid;
+        gap: 12px;
+      }
+
+      .feature-list li,
+      .faq p {
+        color: #445878;
+      }
+
+      .steps li {
+        margin-bottom: 8px;
+      }
+
+      .faq-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .page-footer {
+        position: absolute;
+        left: 14mm;
+        right: 14mm;
+        bottom: 8mm;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10.5px;
+        color: #71829c;
+      }
+
+      .contact-list {
+        display: grid;
+        gap: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section class="page hero">
+      <span class="eyebrow">Official Product Guide PDF</span>
+      <h1>Copilot 3D AI 3D Model Generator Guide, Pricing, Features, and Official Pages</h1>
+      <p class="lead">This PDF is a search-facing guide for the copilot 3d ai 3d model generator at www.copilot3d.org. It explains what the tool does, where the key pages live, which users it fits best, and where to click next for pricing, showcase examples, and the official product workflow.</p>
+
+      <div class="hero-grid" style="margin-top: 18px;">
+        <div class="stack">
+          <div class="metric">
+            <span>Primary website</span>
+            <strong><a href="https://www.copilot3d.org/">https://www.copilot3d.org/</a></strong>
+          </div>
+          <div class="metric">
+            <span>Main use case</span>
+            <strong>AI 3D generation for text-to-3d and image-to-3d workflows</strong>
+          </div>
+          <div class="metric">
+            <span>Variant focus</span>
+            <strong>Best all-purpose PDF for branded and mixed-intent search traffic</strong>
+          </div>
+
+          <div class="hero-links">
+            <a class="hero-link" href="https://www.copilot3d.org/">
+              <strong>Homepage</strong>
+              <span>Open the main Copilot 3D website.</span>
+            </a>
+            <a class="hero-link" href="https://www.copilot3d.org/pricing">
+              <strong>Pricing</strong>
+              <span>Review plans, credits, and upgrade paths.</span>
+            </a>
+            <a class="hero-link" href="https://www.copilot3d.org/showcase">
+              <strong>Showcase</strong>
+              <span>Browse examples and quality references.</span>
+            </a>
+            <a class="hero-link" href="https://www.copilot3d.org/">
+              <strong>Official Site</strong>
+              <span>Enter the Copilot 3D generator.</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>What this PDF is for</h3>
+          <p>Use this as the default PDF external link when a new site launches. It mirrors a strong landing page, keeps the keyword in the title and opening copy, and routes users to the official product pages.</p>
+          <div class="mini-grid">
+            <div><strong>Keyword-first H1</strong><span>Lead with the core search term instead of generic product-guide wording.</span></div>
+            <div><strong>Official page routing</strong><span>Always link the homepage, pricing, showcase, and tool entry inside the PDF.</span></div>
+            <div><strong>SEO-style structure</strong><span>Keep sections for features, use cases, FAQs, and CTA links.</span></div>
+            <div><strong>Search-friendly copy</strong><span>Write plain descriptive sentences that match how users search.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-footer">
+        <span>Copilot 3D AI 3D Model Generator Guide, Pricing, Features, and Official Pages</span>
+        <span><a href="https://www.copilot3d.org/">www.copilot3d.org</a></span>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="section-head">
+        <span class="eyebrow">Keyword Match</span>
+        <h2>Why users search for the copilot 3d ai 3d model generator</h2>
+        <p>
+          Users search for the copilot 3d ai 3d model generator when they want a clear browser-based workflow for text-to-3d,
+          image-to-3d, pricing review, output examples, or the direct tool-entry path. This PDF should
+          describe the product in plain English and keep those intents visible in the section headings.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <h3>Text to 3D</h3>
+          <p>Start from a written prompt and generate 3D asset with style, subject, lighting, and camera direction.</p>
+        </article>
+        <article class="card">
+          <h3>Image to 3D</h3>
+          <p>Upload a reference image and turn a static frame into a 3D model with stronger art direction control.</p>
+        </article>
+        <article class="card">
+          <h3>Browser workflow</h3>
+          <p>Use the product directly in a browser without needing a heavyweight editing setup.</p>
+        </article>
+        <article class="card">
+          <h3>Pricing validation</h3>
+          <p>Commercial-intent users often want plan context before they commit time or credits.</p>
+        </article>
+        <article class="card">
+          <h3>Showcase proof</h3>
+          <p>Example-driven users want to inspect quality, motion style, and creative fit before clicking deeper.</p>
+        </article>
+        <article class="card">
+          <h3>Official route-back</h3>
+          <p>The goal of this guide is to route readers to www.copilot3d.org and its key pages.</p>
+        </article>
+      </div>
+
+      <div class="section-head" style="margin-top: 18px;">
+        <span class="eyebrow">Core Features</span>
+        <h2>What to include in a SEO-friendly blue-template PDF</h2>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <h3>Required content blocks</h3>
+          <ul class="feature-list">
+            <li>Keyword-first H1 that names the product and the core search phrase</li>
+            <li>Short opening paragraph that explains the product and intent match</li>
+            <li>Homepage, pricing, showcase, and official site links near the top</li>
+            <li>Feature summary with text-to-3d and image-to-3d wording</li>
+            <li>Use cases that match creator, marketing, and production workflows</li>
+            <li>FAQ answers written in descriptive, indexable language</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>SEO copy rules</h3>
+          <ul class="feature-list">
+            <li>Put the main keyword in the title, H1, opening paragraph, and at least one subheading.</li>
+            <li>Use natural wording around pricing, examples, text to 3d, and image to 3d.</li>
+            <li>Do not stuff keywords into empty lists; use readable explanatory sentences.</li>
+            <li>Link to the official product pages using descriptive anchor text.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="page-footer">
+        <span>Keyword Match and SEO Structure</span>
+        <span><a href="https://www.copilot3d.org/">www.copilot3d.org</a></span>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="section-head">
+        <span class="eyebrow">Page Map</span>
+        <h2>Important official pages readers should know</h2>
+        <p>This main PDF covers the full intent mix: product discovery, pricing validation, showcase browsing, and tool-entry navigation.</p>
+      </div>
+
+      <div class="stack">
+        <article class="card">
+          <h3>Homepage</h3>
+          <p><a href="https://www.copilot3d.org/">https://www.copilot3d.org/</a></p>
+          <p>The main orientation page for the product, brand, and top-level navigation.</p>
+        </article>
+        <article class="card">
+          <h3>Official Site</h3>
+          <p><a href="https://www.copilot3d.org/">https://www.copilot3d.org/</a></p>
+          <p>The fastest route for users who already know what they want and want to try the generator.</p>
+        </article>
+        <article class="card">
+          <h3>Pricing page</h3>
+          <p><a href="https://www.copilot3d.org/pricing">https://www.copilot3d.org/pricing</a></p>
+          <p>Useful for plan, credits, feature access, and upgrade evaluation.</p>
+        </article>
+        <article class="card">
+          <h3>Showcase page</h3>
+          <p><a href="https://www.copilot3d.org/showcase">https://www.copilot3d.org/showcase</a></p>
+          <p>The page to inspect visual examples, motion references, and output direction.</p>
+        </article>
+      </div>
+
+      <div class="section-head" style="margin-top: 18px;">
+        <span class="eyebrow">Workflow</span>
+        <h2>Typical user flow from search to click-through</h2>
+      </div>
+
+      <article class="card">
+        <ol class="steps">
+          <li><strong>Match the keyword:</strong> Make the title and opening paragraph clearly about the copilot 3d ai 3d model generator.</li>
+          <li><strong>Explain the product:</strong> Describe text-to-3d and image-to-3d in simple, human language.</li>
+          <li><strong>Route by intent:</strong> Surface pricing, showcase, homepage, and tool links based on what readers want next.</li>
+          <li><strong>Send users back:</strong> Use the PDF as an SEO asset that returns readers to the official site.</li>
+        </ol>
+      </article>
+
+      <div class="page-footer">
+        <span>Page Map and Workflow</span>
+        <span><a href="https://www.copilot3d.org/">www.copilot3d.org</a></span>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="section-head">
+        <span class="eyebrow">Use Cases</span>
+        <h2>Where this PDF fits in search and conversion workflows</h2>
+        <p>This version is built for general product discovery. It should convert readers who search for the product name or broad AI 3D generator terms.</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <h3>Brand discovery</h3>
+          <p>Use the PDF to capture readers who search for the product name and need a stronger explanation than a short directory listing.</p>
+        </article>
+        <article class="card">
+          <h3>Commercial research</h3>
+          <p>Guide users toward pricing, plan comparison, and tool-fit evaluation without losing the official click path.</p>
+        </article>
+        <article class="card">
+          <h3>Example-led validation</h3>
+          <p>Support users who need visual proof through the showcase page before they trust a new AI 3D tool.</p>
+        </article>
+        <article class="card">
+          <h3>Workflow entry</h3>
+          <p>Move ready-to-use readers from explanation into the official generator page with minimal friction.</p>
+        </article>
+      </div>
+
+      <div class="section-head" style="margin-top: 18px;">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions this PDF should answer clearly</h2>
+      </div>
+
+      <div class="faq-list">
+        <article class="faq">
+          <h3>What is the copilot 3d ai 3d model generator?</h3>
+          <p>It is a browser-based AI 3D generation workflow designed for prompt-led creation and reference-led 3D generation.</p>
+        </article>
+        <article class="faq">
+          <h3>Why should the PDF link multiple official pages?</h3>
+          <p>Because readers may arrive with pricing, example, or direct-tool intent, so the PDF should route them to the right official page instead of forcing one path.</p>
+        </article>
+        <article class="faq">
+          <h3>Why should the H1 include copilot 3d ai 3d model generator?</h3>
+          <p>Because the PDF title and opening section should clearly match the main keyword instead of using a vague document label.</p>
+        </article>
+        <article class="faq">
+          <h3>Can this PDF help Google index the topic?</h3>
+          <p>Yes, if the PDF has a descriptive title, readable body copy, strong headings, and clear links to the official site instead of thin or duplicate filler text.</p>
+        </article>
+      </div>
+
+      <div class="page-footer">
+        <span>Use Cases and FAQ</span>
+        <span><a href="https://www.copilot3d.org/">www.copilot3d.org</a></span>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="section-head">
+        <span class="eyebrow">Official Links</span>
+        <h2>Where to go next</h2>
+        <p>
+          The website remains the main destination for action. This PDF should explain the product,
+          match search intent, and then route readers to the correct official page.
+        </p>
+      </div>
+
+      <div class="contact-list">
+        <div class="card">
+          <strong>Main website</strong>
+          <span><a href="https://www.copilot3d.org/">https://www.copilot3d.org/</a></span>
+        </div>
+        <div class="card">
+          <strong>Homepage</strong>
+          <span><a href="https://www.copilot3d.org/">https://www.copilot3d.org/</a></span>
+        </div>
+        <div class="card">
+          <strong>Pricing</strong>
+          <span><a href="https://www.copilot3d.org/pricing">https://www.copilot3d.org/pricing</a></span>
+        </div>
+        <div class="card">
+          <strong>Showcase</strong>
+          <span><a href="https://www.copilot3d.org/showcase">https://www.copilot3d.org/showcase</a></span>
+        </div>
+        <div class="card">
+          <strong>Email</strong>
+          <span><a href="mailto:support@copilot3d.org">support@copilot3d.org</a></span>
+        </div>
+      </div>
+
+      <div class="section-head" style="margin-top: 18px;">
+        <span class="eyebrow">CTA</span>
+        <h2>Visit the official Copilot 3D AI 3D model generator pages</h2>
+        <p>Open www.copilot3d.org to review the official product, compare plans, check examples, and enter the tool directly.</p>
+      </div>
+
+      <div class="page-footer">
+        <span>Visit the official Copilot 3D AI 3D model generator pages</span>
+        <span><a href="https://www.copilot3d.org/">www.copilot3d.org</a></span>
+      </div>
+    </section>
+  </body>
+</html>
